@@ -1,6 +1,11 @@
 ## Description
 Simple images slider using jQuery library.
 
+## Features:
+* rolling on timeout
+* auto-crop images
+* navigation: side buttons, bottom panel
+
 ## Install
 Insert `js/gallerySlider.js` and `images/slider` in your project.
 
@@ -33,3 +38,16 @@ Insert `js/gallerySlider.js` and `images/slider` in your project.
 </html>
 ```
 <!--<img src="http://s18.postimg.org/octaontvd/img01.jpg" alt="Gallery">-->
+
+## Tweak gallery
+File `js/gallerySlider.js`:
+```javascript
+var slideDuration = 500; // ms
+var slideTimeout = 3000; // ms
+var navigationFadeIn = 500; // ms
+var navigationFadeOut = 500; // ms
+var navigationOpacityIn = 1.0;
+var navigationOpacityOut = 0.0;
+var navigationPanelOpacityIn = 1.0;
+var navigationPanelOpacityOut = 0.5;
+```
