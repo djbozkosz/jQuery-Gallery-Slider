@@ -5,7 +5,7 @@ Simple images slider using jQuery library.
 Insert `js/gallerySlider.js` and `images/slider` in your project.
 
 ## Preview
-<a href="http://biotopia.shy.cz/">Demo</a>.
+<a href="http://biotopia.shy.cz/" target="_blank">Demo</a>.
 <p style="text-align: center;">
 <img src="http://s18.postimg.org/ind24cnp5/img00.jpg" alt="Gallery">
 </p>
