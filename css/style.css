@@ -1,0 +1,61 @@
+.gallerySlider {
+  width: 1000px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallerySliderContainer {
+  position: absolute;
+}
+
+.gallerySliderImg {
+}
+
+.gallerySliderImg img {
+}
+
+.gallerySliderLeft, .gallerySliderRight {
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+
+.gallerySliderLeft {
+  background-image: url("../images/slider/galleryButtonLeft.png");
+  left: 40px;
+}
+
+.gallerySliderLeft:hover {
+  background-image: url("../images/slider/galleryButtonLeft.png");
+}
+
+.gallerySliderRight {
+  background-image: url("../images/slider/galleryButtonRight.png");
+  right: 40px;
+}
+
+.gallerySliderRight:hover {
+  background-image: url("../images/slider/galleryButtonRight.png");
+}
+
+.gallerySliderSwitchPanel {
+  position: absolute;
+}
+
+.gallerySliderSwitch {
+  background-image: url("../images/slider/galleryButtonEmpty.png");
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin: 0px 5px 0px 0px;
+}
+
+.gallerySliderSwitch:hover {
+  background-image: url("../images/slider/galleryButtonEmpty.png");
+}
+
+#gallerySliderSelected {
+  background-image: url("../images/slider/galleryButtonFilled.png");
+}
