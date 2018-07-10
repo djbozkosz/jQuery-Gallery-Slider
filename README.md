@@ -12,7 +12,7 @@ Insert `js/gallerySlider.js` and `images/slider` in your project.
 ## Preview
 <a href="http://biotopia.shy.cz/" target="_blank">Demo</a>.
 <p style="text-align: center;">
-<img src="http://s18.postimg.org/ind24cnp5/img00.jpg" alt="Gallery">
+<img src="https://s18.postimg.cc/ind24cnp5/img00.jpg" alt="Gallery">
 </p>
 
 ## Usage
@@ -37,7 +37,7 @@ Insert `js/gallerySlider.js` and `images/slider` in your project.
   </body>
 </html>
 ```
-<!--<img src="http://s18.postimg.org/octaontvd/img01.jpg" alt="Gallery">-->
+<!--<img src="https://s18.postimg.cc/octaontvd/img01.jpg" alt="Gallery">-->
 
 ## Tweak gallery
 File `js/gallerySlider.js`:
